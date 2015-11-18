@@ -1,0 +1,72 @@
+body {
+  padding-left:10%;
+  padding-right:10%;
+}
+img {
+	position: relative;
+}
+#title {
+	color:#005C1F;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	/*line-height: 100px;*/
+	display: inline;
+	margin-left:5px;
+}
+#subtitle {
+	color: black;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size:15px;
+	margin-left:5px;
+}
+
+.scoreboard-container {
+	position:relative;
+	width:1000px;
+}
+.score-entry {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	padding: 1% 1%;
+	border: 5px solid silver;
+	display: inline-block;
+	vertical-align:top;
+	margin: 5px;
+}
+.teamName1, .teamName2 {
+	position: relative;
+	left: 10px;
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+	white-space: pre;
+	vertical-align:top;
+}
+.team1Score, .team2Score {
+	position: relative;
+	left:90px;
+	bottom: 15px;
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+}
+.winsLosses {
+	position:relative;
+	left:41px;
+	bottom:15px;
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+	font-style: normal;
+	font-variant: normal;
+}
+.gameStatus {
+	position: absolute;
+	bottom: 0;
+	font-family: Franklin Gothic Medium,Franklin Gothic,ITC Franklin Gothic,Arial,sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	color:blue;
+	white-space: pre;
+}	
